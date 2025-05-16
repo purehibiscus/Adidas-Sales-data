@@ -1,0 +1,100 @@
+Analyzing Adidas Customer dataset
+
+Dashboard file download link: https://1drv.ms/x/c/36ec20b0f1be2167/EbJh9RjVE6VBg81_6aQdSSkBJ5lKPQODmRSUBKy46-Zb6w?e=sa2Tdc
+
+Title: Understanding Customer Sales: A data-driven approach
+
+Introduction:
+As an E-commerce company, understanding Customer sales is crucial to understand customer behavior, what satisfies the customer, what and when to re-stock, tracking events of customer actions that may lead to complete transaction or what drives churn rate and how to polish it, withdrawing from sale finalization, abandonment of carts or leaving company site or app without completing a purchase. The analysis is intended to help engage customers, boost sales, understand customer needs, boost customer satisfaction rate and cut off churn to lower rate. In this story, we'll analyze customer sales data to identify trends, patterns, and insights that can inform business decisions.
+
+A. Data Preparation:
+
+Data Source: Kaggle Public datasets
+
+About Dataset
+The dataset consist of 9,648 customer sales records including variables such as:
+
+- Seller Demographics (retailer, retailer ID)
+- Purchase details (invoice date, product, price per unit, operating margin, sales method, total sales, investment)
+- Customer demographics (region, state, city, )
+
+Data Update Frequency: Annually.
+
+Column Descriptions:
+
+Retailer —corresponds to the record retailer name
+Retailer Id —contains unique key that can identify the customer 
+invoice date — this contain the date the sale is made. It is in date format(2000-001-0)
+region —it contains the regional axis where the customer from
+product —this contain the product's name
+price per unit —this entails the price per unit of each product
+Operating margin- contains the operational margin of transactions
+sales method —here contains the outlet the product is purchased through
+total sales —refers to the total number of products value sold
+investment —denotes the amount invested in the store
+state —refers to the state's the customers are from
+city —refers to the cities the customers are from.
+
+Data Profiling, Governance and Validation:
+
+I. Data Profiling:
+ 
+i. Numerical columns: Data distribution and Column Statistics, checks for Minimum, Maximum, Average, Count, and Standard deviation of each numerical columns, values for all numerical columns, Checks for Unique values, Error or Empty cells, Distinct values and Value distribution were done with the Excel's Power Query through the "Data Preview tool from the View tab". Column quality is 100% complete and no duplicate in key fields.
+
+ii. Categorical Columns: Unique and Distinct are checked to ensure there is no whitespaces, misspelt words, trailing spaces. Column statistics was viewed to ensure proper data distribution, this helped in ensuring there is no anomalies, outliers or any record out of context.
+
+
+B. Data research questions and analysis:
+
+1. What are the top-selling products by retailer category?
+2. Which regions/states have the highest sales and operating profit?
+3. What is the average price per unit by product category?
+4. How does sales method impact total sales and operating profit?
+5. What are the trends in sales and operating profit over time?
+
+KPIs:
+
+1. Total Sales
+2. Operating Profit
+3. Operating Margin
+4. Average Price per Unit
+5. Units Sold
+
+
+C. Data Visualization and Reports:
+
+Charts and Visualizations:
+ 
+1. Top-selling products by retailer category: Bar chart
+2. Regional/state sales and operating profit: Line and column chart
+3. Average price per unit by product category: Line and Stacked column chart
+4. Sales method impact on sales and operating profit: Stacked Bar chart
+5. Regional sales trend and operating profit over time: Stacked column chart
+
+
+KPIs:
+1. Total Sales(K)
+2. Operating Profit($)
+3. Operating Margin(%)
+4. Average Price per Unit($)
+5. Units Sold(K)
+
+
+D. Insights:
+
+1. Top Products by Retailer Category: Retailers such as Foot Locker, West Gear, and Sports Direct lead in overall product sales. This suggests that sports and lifestyle retailers are key drivers of revenue.
+2. Sales Method and Margin Impact: The current sales methods appear to prioritize volume over profitability, potentially driving higher sales at the expense of lower margins.
+3. Most Popular Product Segment: Men's products—specifically street footwear and athletic footwear—dominate sales, indicating strong consumer preference in this segment.
+4. Regional Sales Performance: The Western region shows strong sales performance, possibly driven by strategic promotions, discounting, or customer loyalty programs.
+5. Rising Operating Costs: Operating expenses have shown an upward trend from 2020 to 2021, which may impact overall profitability if not managed effectively.
+ 
+
+Recommendations:
+1. Strengthen partnerships and optimize supply chain efficiency with top-performing retailers like Foot Locker and Sports Direct to boost profitability.
+2. Reassess the sales strategy to find a balance between volume and margin. Consider introducing value-based pricing or bundling to protect margins.
+3. Invest in expanding the men's street and athletic footwear segments, including exploring seasonal trends and limited editions to maintain consumer interest.
+4. Conduct a detailed analysis of the Western region’s promotions to replicate successful tactics in underperforming regions.
+5. Identify key cost drivers post-2020 and implement cost control measures such as operational efficiency programs, renegotiating supplier contracts, or automating low-value tasks.
+
+Conclusions:
+Sales are concentrated among specific retailers and product segments, offering a clear path for focused growth strategies. However, rising operating costs and possible margin erosion from aggressive sales methods could threaten long-term profitability. Strategic action on pricing, regional replication of successful tactics, and cost optimization will be essential to sustain growth and improve financial performance.
